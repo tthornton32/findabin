@@ -1,6 +1,6 @@
 html{
 	font-family: 'Open Sans', sans-serif;
-	color:#7b7b7b;
+	color:#3d3d3d;
 }
 
 
@@ -10,7 +10,7 @@ nav ul{
 				padding:0;
 				overflow:hidden;
 				width:20%;
-				font-size:20px ;
+				font-size:30px ;
 				float:left;
 			}
 
@@ -22,19 +22,19 @@ nav a
 				vertical-align: middle;
 				padding:40px;
 				font-weight:bold;
-				color:#7b7b7b;
-				font-family:'Raleway',sans-serif;
+				color:#3d3d3d;
+				
 				text-decoration:none;
 			}
 a{
 
-				color:#7b7b7b;
-				font-family:'Raleway',sans-serif;
+				
+				color:#3d3d3d;
 				text-decoration:none;
 }
 
 a:hover{
-	color:#18c0cc;
+	color:#d5d5d5;
 }
 
 #header{
@@ -47,7 +47,7 @@ a:hover{
 	float:left;
 	width:75%;
 	height:600px;
-	font-family:'Raleway',sans-serif;
+	
 	font-size:2em;
 }
 #sep {
