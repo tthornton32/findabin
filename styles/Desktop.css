@@ -83,3 +83,26 @@ blockquote{
 	left:20px;
 
 }
+#feedback{
+	font-size:20px;
+}
+#feedback ul{
+	list-style: none;
+	margin-bottom:10px;
+}
+#email_box{
+	position:relative;
+	left:4px;
+}
+#comment_box{
+	width:282px;
+	height:100px;
+}
+#submit{
+	position:relative;
+	left:210px;
+	padding:5px 15px; background:#ccc; border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
