@@ -1,34 +1,42 @@
 <!doctype html>
 <html>
- <head>
-  <title> NYC Cloth </title>
-  <link rel="stylesheet" href="styles/desktop.css"/>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
- </head>
- <body>
-  <nav>
+   <head>
+      <title> NYC Cloth </title>
+      <link rel="stylesheet" href="styles/Desktop.css"/>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+      <script src="https://maps.googleapis.com/maps/api/js"></script>
+      <script>
+         function initialize() {
+           var map_canvas = document.getElementById('map_canvas');
+           var map_options = {
+             center: new google.maps.LatLng(40.638440, -73.953803),
+             zoom: 10,
+             mapTypeId: google.maps.MapTypeId.ROADMAP
+           }
+           var map = new google.maps.Map(map_canvas, map_options);
+         }
+         google.maps.event.addDomListener(window, 'load', initialize);
+      </script>
+   </head>
+   <body>
+      <nav>
+         <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="http://www.facebook.com" target="_new"> <img src="images/fb_icon.png" width="100px"/> </a></li>
+         </ul>
+      </nav>
+      <div id="mainbox">
+         <div id="header" align="center"> NYC Cloth</div>
+         <div id="sep">
+            <div id="line"></div>
+         </div>
+         <div id="pictures">
+         </div>
+               <div id="map_canvas">
+      </div>
+      </div>
 
-			<ul>
-			
-				<li><a href="about.html">About</a></li>
-				<li><a href="location.html">Location</a></li>
-			
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="http://www.facebook.com" target="_new"> <img src="images/fb_icon.png" width="100px"/> </a></li>
-				
-			</ul>
-
-		</nav>
-  <div id="mainbox"> 
-   <div id="header" align="center"> NYC Cloth</div>
-   <div id="sep"> 
-      <div id="line"></div>
-   </div>
-   <div id="pictures">
-    
-   </div> 
-  </div>
-  
-
- </body>
+   </body>
 </html>
