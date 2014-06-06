@@ -81,23 +81,27 @@ blockquote{
 #intro{
 	position:relative;
 	left:20px;
-
 }
+/*Set the font-size for every element*/
 #feedback{
 	font-size:20px;
 }
+/*Style my list of input bars*/
 #feedback ul{
 	list-style: none;
 	margin-bottom:10px;
 }
+/*Posituin the email box because the spacing between that and the name box were off*/
 #email_box{
 	position:relative;
 	left:4px;
 }
+/*Styled the comment box, made it larger*/
 #comment_box{
 	width:282px;
 	height:100px;
 }
+/*Styled and placed the submit button*/
 #submit{
 	position:relative;
 	left:210px;
