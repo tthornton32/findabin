@@ -38,6 +38,7 @@ a:hover{
 }
 
 #header {
+	text-align:center;
 	font-size: 1.5em;
 }
 
@@ -93,7 +94,7 @@ blockquote {
 
 #map_canvas {
 	margin:0 auto;
-	padding 0;
+	padding: 0;
 	width:700px;
 	height: 600px;
 	border: 1px solid black;
