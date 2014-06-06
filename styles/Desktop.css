@@ -81,9 +81,10 @@ blockquote {
 	left:20px;
 
 }
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
 
 /*THIS IS CSS FOR THE MAP*/
-
 #map_canvas {
 	margin:0 auto;
 	padding 0;
@@ -91,7 +92,12 @@ blockquote {
 	height: 600px;
 	border: 1px solid black;
 }
+/*END MAP CSS*/
 
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
+/*THIS IS CSS FOR THE FEEDBACK PAGE*/
 #feedback{
 	font-size:20px;
 }
@@ -114,4 +120,17 @@ blockquote {
     cursor:pointer;
     -webkit-border-radius: 5px;
     border-radius: 5px;
+}
+/*END FEEDBACK PAGE*/
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
+/*BEGIN CSS FOR ABOUT PAGE*/
+
+#bin_image {
+	border: 1px solid black;
+	position: absolute;
+	margin: 0 auto;
+	padding: 0;
 }
